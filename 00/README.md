@@ -14,10 +14,10 @@
 - 유지보수도 하기 쉬움
 
 ## 시맨틱 태그의 종류
-|header|||
+|header||
 |:--------:|:----------:|
-|nav|||
-|section|aside||
-|article|||
-|footer|||
+|nav||
+|section|aside|
+|article||
+|footer||
 
