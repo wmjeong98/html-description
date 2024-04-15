@@ -14,12 +14,7 @@
 - 유지보수도 하기 쉬움
 
 ## 시맨틱 태그의 종류
-|header||
-|:--------:|:----------:|
-|nav||
-|section|aside|
-|article||
-|footer||
+!(https://velog.velcdn.com/images%2Fsyoung125%2Fpost%2F21d321a8-5e5b-4f48-9635-3a217a25799d%2Fimage.png)
 
 - header : 페이지 제목과 같은 소개 내용 포함, heading 태그나 로고 또는 아이콘, 저작권 정보, 검색 양식, 작성자 이름 등 포함
 - nav : 보통 **메뉴**, 목차 등에 사용
