@@ -14,7 +14,7 @@
 - 유지보수도 하기 쉬움
 
 ## 시맨틱 태그의 종류
-!(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc25dQt%2FbtrSf2xvwsg%2FoOnA3S5q9wMYWhAK43aKq0%2Fimg.jpg)
+!(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc25dQt%2FbtrSf2xvwsg%2FoOnA3S5q9wMYWhAK43aKq0%2Fimg.jpg "시맨틱 태그 종류")
 
 - header : 페이지 제목과 같은 소개 내용 포함, heading 태그나 로고 또는 아이콘, 저작권 정보, 검색 양식, 작성자 이름 등 포함
 - nav : 보통 **메뉴**, 목차 등에 사용
