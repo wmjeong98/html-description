@@ -13,4 +13,19 @@
 </body>
 </html>
 ```
-
+## id, class 속성
+- 모든 태그에는 id 속성과 class 속성을 지정해 줄 수 있는데, 이를 이용하면 `CSS`나 `JavaScript`에서 태그를 좀더 쉽게 다룰 수 있음
+- id는 원칙상 **하나의 id** 당 **하나의 태그**에만 적용할 수 있으며, class는 **하나의 class**를 **여러 태그**에 적용할 수 있음
+```
+<div id="my-box1"></div>
+<div id="my-box2" class="boxes"></div>
+<div id="my-box3" class="boxes"></div>
+<div class="boxes"></div>
+```
+## style 속성
+- 태그의 스타일, 즉 보이는 형태를 정의하는 속성
+- HTML 자체의 기능이라기 보다는 **CSS의 속성**을 HTML 문서 내에서 태그에 직접 설정할 때 쓰이는 속
+```
+<div style="width:500px; height:300px"></div>
+<div style="height:40px; border: 1px solid green">mybox</div>
+```
