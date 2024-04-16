@@ -22,6 +22,8 @@
 ```
 # DOCTYPE이란
 - **Document Type Definition, DTD**
+- 페이지 상단에서 HTML 태그 앞에 한 번만 표시
+- 선언은 대소문자 구분 X
 - 어떤 버전의 HTML을 사용할 것 인지를 인터넷 브라우저에 알려줌 
 - HTML은 한 종류가 아니라 여러 종류의 HTML 존재
 - **HTML 4.01 Strict, HTML 4.01 Transitional, XHTML 1.0** 등
@@ -35,8 +37,17 @@
 시작 태그, 일부 콘텐츠 및 끝 태그로 정의
 |시작 태그|콘텐츠 요소|끝 태그|
 |---|---|---|
-|"<h1>"|My Fisrt Heading|/h1|
+|h1|My Fisrt Heading|/h1|
 |p|My Fisrt paragraph|/p|
 |br|none|none|
 
+- 일부 HTML 요소에는 내용이 없음( ex: <br> 요소) 이러한 요소는 빈 요소라고 함. 빈 요소는 끝 태그가 없음
+
+# 웹 브라우저
+- 웹 브라우저(크롬, 엣지, 파이어폭스, 사파리)의 목적은 HTML 문서를 읽고 표시하는 것
+- 브라우저는 HTML 태그를 표시하지 않지만 HTML 태그를 사용하여 문서를 표시하는 방법을 결정
+
+# HTML 페이지 구조
+- <body> 섹션 내의 콘텐츠가 브라우저에 표시됨
+- <title> 요소는 브라우저의 제목 표시줄 또는 페이지 탭에 표시됨
 
