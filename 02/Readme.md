@@ -40,7 +40,12 @@
 </style>
 </head>
 <body>
-	<p><a href="body.html#otherpage">다른 HTML 페이지 책갈피 이동</a></p>
+	<p><a href="#footer">문서의 하단 지정 위치로</a></p>
+	
+	<p style="height:300px;">스크롤 효과를 위해 문단의 높이 지정</p>
+	
+	<p><a id="footer">하단 위치</a></p>
+	<p><a href="#top">문서의 상단 지정 위치로</a></p>
 </body>
 </html>
 ```
