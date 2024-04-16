@@ -27,6 +27,23 @@
 <a id="이동위치이름">이동할 위치</a><a href="#이동위치이름"> 위치 이동 클릭</a>
 ```
 - id 속성을 지정하지 않아도 브라우저 상단 끝으로 이동할 수 있는 **#top**이 있지만 **하단 이동은 id 속성을 이용해야 한다.**
+```
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="euc-kr">
+<title>HTML</title>
+<style type="text/css">
+	body {
+		background-color: #e7e7e7;
+	}
+</style>
+</head>
+<body>
+	<p><a href="body.html#otherpage">다른 HTML 페이지 책갈피 이동</a></p>
+</body>
+</html>
+```
 ## style 속성
 - 태그의 스타일, 즉 보이는 형태를 정의하는 속성
 - HTML 자체의 기능이라기 보다는 **CSS의 속성**을 HTML 문서 내에서 태그에 직접 설정할 때 쓰이는 속
