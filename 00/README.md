@@ -35,7 +35,7 @@
 시작 태그, 일부 콘텐츠 및 끝 태그로 정의
 |시작 태그|콘텐츠 요소|끝 태그|
 |---|---|---|
-|h1|My Fisrt Heading|/h1|
+|"<h1>"|My Fisrt Heading|/h1|
 |p|My Fisrt paragraph|/p|
 |br|none|none|
 
