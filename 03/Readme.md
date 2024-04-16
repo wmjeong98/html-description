@@ -24,4 +24,6 @@
 |minimum-scale|뷰포트의 최소 배율값(0~10)|
 |maximum-scale|뷰포트의 최대 배율값(0~10)|
 
-
+[네이버 모바일 마크업](https://m.naver.com/)을 보면 `user-scalable=no`이 지정된 걸 볼 수 있음
+즉, 사용자가 줌인이나 줌아웃을 할 수 없도록 막아둔 상태
+`minimum-scale`과 `maximum-scale`도 1.0으로 지정했기 때문에 고정된 UI를 항시 보여줄 수가 있음
