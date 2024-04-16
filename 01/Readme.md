@@ -28,14 +28,6 @@
 - HTML 이미지는 `<img>` 태그로 정의
 - 소스 파일 `src`, 대체 텍스트 `alt`, 및 속성 `width` `height` 다음과 같이 제공
 
-## HTML 요소
-- 시작 태그에서 끝 태그까지 모든 것
-|시작 태그|콘텐츠 요소|끝 태그|
-|---|---|---|
-|\<h1>|My First Heading|\</h1>|
-|\<p>|My First Paragraph|\</p>|
-|\<br>|none|none|
-
 ## 중첩된 HTML 요소
 - 중첩 가능
 - 모든 HTML 문서는 중첩된 HTML 요소로 구성
