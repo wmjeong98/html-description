@@ -63,7 +63,7 @@
 - 셀 병합 `<th colspan="2">` 이런 식으로 사용 //행 부분
 - 셀 병합 `<th rowspan="2">` 이런 식으로 사용 //열 부분
 - 테이블 가로 줄무늬 효과
-  '''
+  ```
   tr:nth-child(even or odd) {
     background-color: #D6EEEE;
   }
