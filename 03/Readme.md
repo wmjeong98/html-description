@@ -1,29 +1,91 @@
-# 뷰포트 메타태그와 미디어 쿼리
-## 1. meta 태그 - viewport
-```
-<meta name="viewport" content="width=device-width,initial-scale=1">
-```
-뷰포트 메타 태그는 모바일 반응형을 만들 때 필요
-**뷰포트란**
-- 웹 페이지에서 사용자의 보이는 영역
-- `width`는 뷰포트의 가로 크기를 정함. 500이란 값을 넣으면 500만큼의 픽셀 개수를 가진 너비로 설정
-- `device-width`라고 지정했으니, 기기의 스크린 너비를 맞추라는 뜻
-- `initial-scale`은 페이지에 처음 접속했을 때 보여질 확대 배율을 설정
-- 1로 정하면 CSS 픽셀과 화면에 보여질 픽셀이 1:1을 이룸
-- 달리 말해, 이 값이 1보다 작다면 페이지는 축소되어 보이고, 1보다 크다면 확대되어 보임
+# HTML 4장
+## 색상
+- 140개의 표준 색상 이름 지원
+- 배경색 `background-color`
+- 글자 색깔 `color`
+- 테두리 색깔 `border`
+- 색상 값은 `#ffffff`, `rgb(0,0,0)`, `HSL(9, 100%, 64%)` 사용
+- 색상과 투명도를 동시에 사용할 땐 `rgba`, `hsla`를 사용
 
-|width|뷰포트의 가로 크기|
-|---|---|
-|initial-scale|페이지 처음 접속 시 보여질 배율|
+## CSS
+- Cascading Style Sheet
+- 웹 페이지 레이아웃 서식
+- 색상 `color`, 글꼴 `font-family`, 텍스트 크기 `font-size`, 간격 제어 `margin, padding`
+- 요소 사이, 요소가 배치되는 방식, 배경 이미지
+- 장치마다 다른 디스플레이 사용
+- HTML요소 내부 속성에 사용, 섹션 요소에 사용 head 부분, 외부 css 파일 연결
 
-- 뷰포트 메타태그에는 아래 속성도 들어갈 수 있음
-
- 
-|user-scalable|사용자의 축소/확대 허용 여부. 초기값은 yes며, no로 금지 가능|
-|---|---|
-|minimum-scale|뷰포트의 최소 배율값(0~10)|
-|maximum-scale|뷰포트의 최대 배율값(0~10)|
-
-[네이버 모바일 마크업](https://m.naver.com/)을 보면 `user-scalable=no`이 지정된 걸 볼 수 있음
-즉, 사용자가 줌인이나 줌아웃을 할 수 없도록 막아둔 상태
-`minimum-scale`과 `maximum-scale`도 1.0으로 지정했기 때문에 고정된 UI를 항시 보여줄 수가 있음
+## 링크
+- 하이퍼링크
+  + HTML 링크는 하이퍼링크
+  + 링크를 클릭하고 다른 문서로 이동 가능
+  + 링크는 꼭 텍스트일 필요 없음
+- 구문
+  + `<a>`
+  + ```
+    <a href="url">link text</a>
+    ```
+- 대상 속성
+  + 링크된 페이지는 현재 브라우저 창에 표시됨
+  + 이를 변경하기 위해서는 링크를 다른 대상에 지정
+  +  `target`
+  +  `_self` : 기본값에서 문서를 엶, 클릭한 것과 동일한 창/탭
+  +  `_blank` : 새창 또는 탭에서 문서를 엶
+  +  `_parent` : 상위 프레임에서 문서를 엶
+  +  `_top` : 창의 전체 본문에서 문서를 엶
+- 절대 URL vs 상대 URL
+  + `href` 부분에 `"https://www"` 사용하면 절대, `/`를 사용하면 상대
+- 이미지 링크
+  + ```
+    <a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+    ```
+- 이메일 주소 링크
+  + ```
+    <a href="mailto:someone@example.com">Send email</a>
+    ```
+- 링크 버튼
+  + ```
+    <button onclick="document.location='default.asp'">HTML Tutorial</button>
+    ```
+- 링크 제목
+  + ```
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+    ```
+ - 링크 색상
+   + ```
+     <style>
+     a:link {
+       color: green;
+       background-color: transparent;
+       text-decoration: none;
+     }
+     
+     a:visited {
+       color: pink;
+       background-color: transparent;
+       text-decoration: none;
+     }
+     
+     a:hover {
+       color: red;
+       background-color: transparent;
+       text-decoration: underline;
+     }
+     
+     a:active {
+       color: yellow;
+     background-color: transparent;
+     text-decoration: underline;
+     }
+     </style>
+     ```
+ - 북마크
+   + `id` 속성 이용
+   + ```
+     모두 같음
+     <h2 id="C4">Chapter 4</h2>
+     <a href="#C4">Jump to Chapter 4</a>
+     <a href="html_demo.html#C4">Jump to Chapter 4</a>
+     ```
