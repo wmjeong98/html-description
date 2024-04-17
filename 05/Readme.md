@@ -14,9 +14,15 @@
     - 기본적으로 **가로폭 전체의 넓이를 가지는 직사각형 형태**
     - `width` `height` `margin` `padding` 로 레이아웃 수정 가능
     - **줄바꿈 O**
+    - `display: inline` **블록 요소를 인라인 요소의 속성으로 변경 가능**
   + **인라인 요소**
     - 인라인 요소는 텍스트를 강조하거나 스타일을 적용하는 데 사용
     - `height` `width` 적용 X
+    - **항상 블록 요소 안에 포함** 다른 인라인 요소에 포함 가능
+    - `line-height`로 줄 높낮이 조절, `text-align`으로 텍스트 중앙, 좌우측 정렬
+    - 줄바꿈 X 우측으로 이어서 표시
+    - `display: block` **인라인 요소를 블록 요소의 속성으로 변경 가능**
+   
 ## 클래스
 - **여러 HTML 요소가 동일한 클래스 공유 가능**
 - 클래스 이름 변환
@@ -55,4 +61,16 @@
 - 자바스크립트 액세스 시 사용
 - CSS 속성 정의 시 `#아이디이름 {}`으로 정의
 - 아이디 이름은 대소문자 구분
-- 
+- 북마크 사용 가능
+  ```
+  <p><a href="#C4">Jump to Chapter 4</a></p>
+  <h2 id="C4">Chapter 4</h2>
+  ```
+- 자바스크립트에서 아이디 속성 사용 `getElementById()`
+  ```
+  <script>
+  function displayResult() {
+    document.getElementById("myHeader").innerHTML = "Have a nice day!";
+  }
+  </script>
+  ```
