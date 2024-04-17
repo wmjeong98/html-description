@@ -57,4 +57,4 @@
 - 페이지의 모든 relative URL에 대한 기본 URL과 타겟을 지정
 
 ## 레이아웃
-[레이아웃 요소](! https://www.w3schools.com/html/img_sem_elements.gif)
+![레이아웃 요소](https://www.w3schools.com/html/img_sem_elements.gif "레이아웃 요소")
