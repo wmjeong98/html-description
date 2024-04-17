@@ -1,58 +1,67 @@
-# 태그
-## 태그의 속성
-- 태그의 속성은 <태그 속성 = "값"> 의 형태로 사용하며, 태그마다 여러 속성을 부여할 수 있음
-- HTML에서 태그의 속성 또한 미리 정의되어 있으며, 태그 속성에 맞는 값을 입력하면 특별한 기능을 하게됨
-```html
-<html>
-<head>
-	<link type="text/css" href="my_style.css">
-</head>
-<body>
-	<font color="red" face="Dotum">Hello</font>
-	<font color="yellow">World</font>
-</body>
-</html>
+# HTML 3장
+## HTML 텍스트 서식 요소
+- `<b>` 굵은 글씨 = 굵음
+- `<strong>` 중요 텍스트 = 굵음
+- `<i>` 이탤릭체 텍스트 = 기울임
+- `<em>` 강조된 표시 = 기울임
+- `<mark>` 표시된 텍스트 = 형광펜
+- `<small>` 작은 텍스트 = 사이즈 작음
+- `<del>` 삭제된 텍스트 = 글자에 줄 그어서 지운 것처럼 표시
+- `<ins>` 삽입된 텍스트 = 밑줄
+- `<sub>` 아래 첨자 텍스트 = 인덱스
+- `<sup>` 위 첨자 텍스트 = 지수
+
+## HTML 인용 및 인용 요소
+### `<blckquote>`
+- 다른 출처에서 인용하여 섹션을 정의
 ```
-## id, class 속성
-- 모든 태그에는 id 속성과 class 속성을 지정해 줄 수 있는데, 이를 이용하면 `CSS`나 `JavaScript`에서 태그를 좀더 쉽게 다룰 수 있음
-- id는 원칙상 **하나의 id** 당 **하나의 태그**에만 적용할 수 있으며, class는 **하나의 class**를 **여러 태그**에 적용할 수 있음
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
 ```
-<div id="my-box1"></div>
-<div id="my-box2" class="boxes"></div>
-<div id="my-box3" class="boxes"></div>
-<div class="boxes"></div>
+
+### `<q>`
+- 따옴표 역할
 ```
-- <a> 태그 id 속성에 이름을 넣고 href 속성에 **"# + 이름"** 으로 조합하여 넣고 클릭하면 id 속성에 해당 이름이 있는 곳으로 이동
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
 ```
-<a id="이동위치이름">이동할 위치</a><a href="#이동위치이름"> 위치 이동 클릭</a>
+
+### `<abbr>`
+- 약어 역할, 점선 밑줄로 표시
+- title 속성을 이용하여 사용 커서를 갖다 대면 설명 표시
 ```
-- id 속성을 지정하지 않아도 브라우저 상단 끝으로 이동할 수 있는 **#top**이 있지만 **하단 이동은 id 속성을 이용해야 한다.**
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
 ```
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta charset="euc-kr">
-<title>HTML</title>
-<style type="text/css">
-	body {
-		background-color: #e7e7e7;
-	}
-</style>
-</head>
-<body>
-	<p><a href="#footer">문서의 하단 지정 위치로</a></p>
-	
-	<p style="height:300px;">스크롤 효과를 위해 문단의 높이 지정</p>
-	
-	<p><a id="footer">하단 위치</a></p>
-	<p><a href="#top">문서의 상단 지정 위치로</a></p>
-</body>
-</html>
+
+### `<address>`
+- 문서 작성자/소유자에 대한 연락처 정보를 정의
+- 연락처 정보는 이메일 주소, URL, 실제 주소, 전화 등
+- 요소 텍스트는 일반적으로 기울임꼴로 렌더링되며 브라우저는 항상 요소 앞뒤에 줄 바꿈 추가
 ```
-## style 속성
-- 태그의 스타일, 즉 보이는 형태를 정의하는 속성
-- HTML 자체의 기능이라기 보다는 **CSS의 속성**을 HTML 문서 내에서 태그에 직접 설정할 때 쓰이는 속
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
 ```
-<div style="width:500px; height:300px"></div>
-<div style="height:40px; border: 1px solid green">mybox</div>
+
+### `<cite>`
+- 창작물 표시 역할
+- 사람의 이름은 안됨
+- 기울임꼴로 렌더링
 ```
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+### `<bdo>`
+- Bi-Directional Override의 약자
+- 텍스트 방향을 거꾸로 사용하는데 이용
+```
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+
+## 주석
+`<!-- contents -->`
