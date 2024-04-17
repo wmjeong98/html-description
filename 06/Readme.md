@@ -46,7 +46,7 @@
     ```
 ### `<script>` 요소
 - 자바스크립트 정의
-- ```
+  ```
   <script>
   function myFunction() {
     document.getElementById("demo").innerHTML = "Hello JavaScript!";
@@ -58,3 +58,53 @@
 
 ## 레이아웃
 ![레이아웃 요소](https://www.w3schools.com/html/img_sem_elements.gif "레이아웃 요소")
+- `<header>` : 문서 또는 섹션의 머리글을 정의
+- `<nav>` : 메뉴 요소
+- `<section>` : 제목별로 나눌 수 있는 요소
+- `<article>` : 개별 콘텐츠를 나타내는 요소
+- `<aside>` : 좌우측 사이드바를 나타내는 요소
+- `<footer>` : 제작자의 정보나 저작권의 정보를 나타내는 요소
+- 레이아웃 기법
+  + CSS 프레임워크
+  + CSS float 레이아웃
+  + CSS flex-box 레이아웃
+  + CSS grid 레이아웃
+
+## 반응형 웹 디자인
+- 모든 장치에서 잘 보이는 웹 페이지를 만드는 것
+- 다양한 화면 크기와 뷰포트에 맞게 자동으로 조정
+- 자동으로 크기 조정, 숨기기, 축소/확대하는 것
+- 뷰포트 설정 : `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+- 반응형 이미지 : CSS에서 `max-width:100%;height:auto` 로 설정
+- 브라우저 너비에 따른 이미지 표시 :
+  ```
+  <picture>
+    <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+    <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+    <source srcset="flowers.jpg">
+    <img src="img_smallflower.jpg" alt="Flowers">
+  </picture>
+  ```
+- 반응형 텍스트 크기 : 뷰포트 너비를 의미하는 `vw` 단위로 설정 `<h1 style="font-size:10vw">Hello World</h1>`
+- 뷰포트는 브라우저 창 크기, 1vw = 뷰포트 너비의 1%. 뷰포트 너비가 50cm인 경우 1vw는 0.5cm
+- 미디어 쿼리 : 브라우저 크기마다 완전히 다른 스타일을 정의 가능
+  ```
+  <style>
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  </style>
+  ```
