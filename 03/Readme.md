@@ -1,4 +1,4 @@
-# HTML 4장
+# HTML 3장
 ## 색상
 - 140개의 표준 색상 이름 지원
 - 배경색 `background-color`
