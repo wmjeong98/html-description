@@ -1,4 +1,4 @@
-# HTML 7장
+# HTML 6장
 ## iframe
 - 웹 페이지 내에 웹 페이지를 표시하는 데 사용
 - inline frame = iframe `<iframe>`
