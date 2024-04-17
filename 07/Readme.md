@@ -24,7 +24,7 @@
   <form action="/action_page.php" method="post">
   ```
 - `autocomplete` 속성 : 자동완성기능 `on, off` 사용`<form action="/action_page.php" autocomplete="on">`
-- 'novalidate` 속성 : 유효성 검사하지 않도록 지정 `<form action="/action_page.php" novalidate>`
+- `novalidate` 속성 : 유효성 검사하지 않도록 지정 `<form action="/action_page.php" novalidate>`
 ### `<form>` 요소
 - `<input>`
   + 가장 많이 사용되는 요소
