@@ -38,7 +38,7 @@
 - `kind` : 텍스트 트랙 종류
 - `label` : 텍스트 트랙 제목
 - `src` : `.vtt` 파일의 URL
-- 'srclang' : 텍스트 트랙 언어
+- `srclang` : 텍스트 트랙 언어
 # `<video>`
 - 비디오 콘텐츠 표시
 - `autoplay` : 자동 재생
