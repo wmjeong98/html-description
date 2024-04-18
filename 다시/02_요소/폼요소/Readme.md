@@ -55,3 +55,42 @@
 - `required` : 양식 제출 전 값을 입력해야함
 # `<input>`
 - 입력식 대화형 컨트롤 생성
+- ## `<input>` 종류
+- `<input type="button">`
+- `<input type="checkbox">`
+- `<input type="color">`
+- `<input type="date">`
+- `<input type="datetime-local">`
+- `<input type="email">`
+- `<input type="file">`
+- `<input type="hidden">`
+- `<input type="image">`
+- `<input type="month">`
+- `<input type="number">`
+- `<input type="password">`
+- `<input type="radio">`
+- `<input type="range">`
+- `<input type="reset">`
+- `<input type="search">`
+- `<input type="submit">`
+- `<input type="tel">`
+- `<input type="text">`
+- `<input type="time">`
+- `<input type="url">`
+- `<input type="week">`
+
+- ## `<input>` 속성
+- `value` : 초기 값
+- `readonly` : 읽기 전용
+- `disabled` : 필드 비활성화
+- `size` : 너비, 기본값 20
+- `maxlength` : 최대 문자 수
+- `min max` : 최소값, 최대값
+- `multiple` : 둘 이상의 값 입력하도록 지정
+- `pattern` : 정규식 `pattern="[A-Za-z]{3}"` `pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"`
+- `required` : 입력 필드 채워야 함
+- `step` : 숫자 n에 대한 등차수열 숫자, 범위, 날짜 등에 쓰이고 `max, min`이랑 쓰면 올바른 값의 범위 만들기 가능
+- `autofocus` : 페이지 로드 시 입력 필드 자동 포커스 -> 바로 입력 가능하게 됨
+- `width height` : 너비 높이, 이미지에 사용
+- `list` : 미리 정의된 옵션을 포함하는 요소 참조
+- `autocomplete` : 자동완성
