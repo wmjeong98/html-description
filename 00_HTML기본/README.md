@@ -37,9 +37,9 @@
 시작 태그, 일부 콘텐츠 및 끝 태그로 정의
 |시작 태그|콘텐츠 요소|끝 태그|
 |---|---|---|
-|h1|My Fisrt Heading|/h1|
-|p|My Fisrt paragraph|/p|
-|br|none|none|
+|`<h1>`|My Fisrt Heading|`</h1>`|
+|`<p>`|My Fisrt paragraph|`</p>`|
+|`<br>`|none|none|
 
 - 일부 HTML 요소에는 내용이 없음 `( ex: <br> 요소)` 이러한 요소는 빈 요소라고 함. 빈 요소는 끝 태그가 없음
 
