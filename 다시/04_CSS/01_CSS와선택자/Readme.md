@@ -7,8 +7,13 @@
 
 # CSS 선언
 - 문서에 CSS 추가하기
-- `<link rel="stylesheet" href="styles.css" />`
-![CSS 선언](https://velog.velcdn.com/images%2Frimu%2Fpost%2Fcd5153b9-9e40-4467-8f75-c17d2e188ee4%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-04-20%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.36.20.png)
+- 내부 스타일 시트 선언 : `<head>`의 `<style>` 태그에서 선언
+- `<style type="text/css">` 
+- 외부 스타일 시트 선언 : `<head>`의 '<link>' 태그 이용
+- `<link rel="stylesheet" href="styles.css"/>`
+- 인라인 삽입 : 모든 태그에 style 속성을 지정하여 삽입
+- CSS 속성 선언
+![CSS 속성 선언](https://velog.velcdn.com/images%2Frimu%2Fpost%2Fcd5153b9-9e40-4467-8f75-c17d2e188ee4%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-04-20%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%208.36.20.png)
 
 # 기본 선택자
 - 스타일을 적용하고자하는 HTML 요소를 특정할 필요가 있을 때 사용하는 것이 선택자
