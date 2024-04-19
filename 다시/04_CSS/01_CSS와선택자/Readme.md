@@ -9,7 +9,7 @@
 - 문서에 CSS 추가하기
 - 내부 스타일 시트 선언 : `<head>`의 `<style>` 태그에서 선언
 - `<style type="text/css">` 
-- 외부 스타일 시트 선언 : `<head>`의 '<link>' 태그 이용
+- 외부 스타일 시트 선언 : `<head>`의 `<link>` 태그 이용
 - `<link rel="stylesheet" href="styles.css"/>`
 - 인라인 삽입 : 모든 태그에 style 속성을 지정하여 삽입
 - CSS 속성 선언
