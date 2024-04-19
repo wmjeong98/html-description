@@ -22,6 +22,9 @@
     - ### `align-content`
       + 교차 축(수직)의 **여러 줄** 정렬 방법
       + `stretch, flex-start, flex-end, center, space-between, space-around`
+    - ### `place-content`
+      + `align-content` `justify-content` 단축 속성
+      + `normal, start, center, end, stretch`
     - ### `align-items`
       + 교차 축(수직) **한 줄** 정렬 방법
       + `stretch, flex-start, flex-end, center, space-between, space-around`
