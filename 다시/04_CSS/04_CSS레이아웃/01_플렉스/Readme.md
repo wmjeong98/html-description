@@ -41,6 +41,3 @@
     - ### `align-self`
       + 교차 축의 특정 요소 위치만 지정
       + `auto, stretch, flex-start, flex-end, center, space-between, space-around`
-
-# Media Query
--
