@@ -35,32 +35,32 @@
 # 위치
 - ## position
   - ### static
-  - 작성된 순서 그대로 원래 있어야 할 자기 자리에 위치
-  - `top, right, bottom, left, z-index` 값을 주어도 무시
+    - 작성된 순서 그대로 원래 있어야 할 자기 자리에 위치
+    - `top, right, bottom, left, z-index` 값을 주어도 무시
 
 ![static](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdFahe%2FbtrS5NNujtS%2FHlfIgTyJkYaMmLiiBbcavK%2Fimg.jpg)
   - ### relative
-  - 원래 있던 자리에서 `top, right, bottom, left` 값에 따라 배치
-  - 다른 요소에 영향을 주지않고, 원래 있던 자리는 그대로 유지
+    - 원래 있던 자리에서 `top, right, bottom, left` 값에 따라 배치
+    - 다른 요소에 영향을 주지않고, 원래 있던 자리는 그대로 유지
 
 ![relative](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FrTTdM%2FbtrS3pmAtLQ%2FyuCtEjHtGLMcALr1R4cG5k%2Fimg.jpg)
   - ### absolute
-  - 기본적인 html 흐름에서 벗어나 원래 있던 자리가 없어짐
-  - 부모요소를 기준으로 `top, right, bottom, left` 값에 위치
+    - 기본적인 html 흐름에서 벗어나 원래 있던 자리가 없어짐
+    - 부모요소를 기준으로 `top, right, bottom, left` 값에 위치
 
 ![absolute](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F2Ix0e%2FbtrS43DwYLc%2FrBvs8ynURnZUc18tYNSg2K%2Fimg.jpg)
   - ### fixed
-  - 기본적인 html 흐름에서 벗어나 원래 있던 자리가 없어짐
-  - 뷰포트(브라우저 화면) 기준으로 설정한 `top, right, bottom, left` 값에 위치
-  - 스크롤과 상관없이 화면에서 고정된 위치에 배치할 때 사용
+    - 기본적인 html 흐름에서 벗어나 원래 있던 자리가 없어짐
+    - 뷰포트(브라우저 화면) 기준으로 설정한 `top, right, bottom, left` 값에 위치
+    - 스크롤과 상관없이 화면에서 고정된 위치에 배치할 때 사용
 
 ![fixed](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhPDAp%2FbtrS6YgDRIL%2FLZxG6mNgU4gJ62O9qtABDK%2Fimg.jpg)
   - ### sticky
-  - 다른 요소에 영향을 주지않고, 원래 있던 자리는 그대로 유지
-  - 부모 요소가 스크롤 뒤어 뷰포트 기준으로 설정한 해당 요소의 위치값에 도달하면 `fixed` 처럼 위치에 고정됨
-  - 해당 요소의 위치 값에 도달하기 전이나 부모 요소가 뷰포트에서 벗어난 후에는 `static` 처럼 원래 자기 자리에 위치
-  - 부모 요소에 `overflow: hidden|scroll|auto;` 가 설정되어 있으면 `sticky` 작동 X
-  - 부모 요소에 `height` 값 반드시 설
+    - 다른 요소에 영향을 주지않고, 원래 있던 자리는 그대로 유지
+    - 부모 요소가 스크롤 뒤어 뷰포트 기준으로 설정한 해당 요소의 위치값에 도달하면 `fixed` 처럼 위치에 고정됨
+    - 해당 요소의 위치 값에 도달하기 전이나 부모 요소가 뷰포트에서 벗어난 후에는 `static` 처럼 원래 자기 자리에 위치
+    - 부모 요소에 `overflow: hidden|scroll|auto;` 가 설정되어 있으면 `sticky` 작동 X
+    - 부모 요소에 `height` 값 반드시 설
 - ## float
 - 왼쪽이나 오른쪽 구석에 요소를 배치시키는 기능
 - `none left right`
