@@ -108,9 +108,11 @@
   - #### `minimum-scale`
     - 뷰포트 최소 축소 비율 지정
     - 기본값은 0.25(음수 X)
+    - 현재 자주 사용하지 않는 속성 
   - #### `maximum-scale`
     - 뷰포트 최대 확대 비율 지정
     - 기본값은 5.0(음수 X)
+    - 현재 자주 사용하지 않는 속성
 ## 다양한 디바이스 해상도
 
 ![디바이스 해상도](https://blog.kakaocdn.net/dn/bL535d/btrg1LGWYfL/DUSH1fqtCvvNEphQ2HnxLk/img.jpg)
