@@ -34,9 +34,9 @@
 
 # 위치
 - ## position
-  - ### static
-    - 작성된 순서 그대로 원래 있어야 할 자기 자리에 위치
-    - `top, right, bottom, left, z-index` 값을 주어도 무시
+- ### static
+  - 작성된 순서 그대로 원래 있어야 할 자기 자리에 위치
+  - `top, right, bottom, left, z-index` 값을 주어도 무시
 
 ![static](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdFahe%2FbtrS5NNujtS%2FHlfIgTyJkYaMmLiiBbcavK%2Fimg.jpg)
   - ### relative
