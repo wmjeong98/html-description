@@ -9,6 +9,9 @@
 - `text-align` 문장 정렬 **(left, right, center, justify)**
 - `letter-spacing` 문자 사이 간격 **(길이값 or 백분율)**
 - `word-spacing` 단어 사이 간격 **(")**
+- `word-break` 줄바꿈 시 단어 기준으로 할지 글자 기준으로 할지 정하는 속성 **(noraml, break-all, keep-all)**
+- `word-wrap` 텍스트가 해당 영역을 넘어갈 경우 강제로 줄바꿈할 것인지 아니면 그대로 이어서 보이게 할 것인지 결정하는 속성
+  - **(normal, break-word)**
 - `vertical-align` 문장 세로 정렬 **(baseline, sub, super, text-top, text-bottom, top, bottom)**
 - `line-height` 문장 사이 줄 간격 **(normal, 길이값 or 백분율)**
 - `text-indent` 들여쓰기, 내어쓰기 **(길이값 or 백분율)**
