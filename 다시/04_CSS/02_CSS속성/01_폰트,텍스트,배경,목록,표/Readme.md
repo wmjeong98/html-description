@@ -35,5 +35,8 @@
 - `table-layout` 표 or 셀 폭 지정 **(auto, fixed)**
 - `border-spacing` 셀 간격 **(테두리 굵기)**
 - `border-collapse` 테두리 분리 **(collapse(기본값), separate)**
+- `border-width` 테두리 두께 **(thin, medium, thick, 길이값, inherit, initial, unset)**
+- `border-style` 테두리 스타일 **(none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset)**
+- `border-color` 테두리 색
 - `empty-cells` 빈셀 테두리 표시 유무 **(show(기본값), hide, initial)**
 - `caption-side` 캡션 위치 지정 **(top, bottom)**
