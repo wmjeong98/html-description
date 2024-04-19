@@ -77,7 +77,6 @@
       "header header header"
       "main   main   aside"
       "footer footer footer";
-      출처: https://inpa.tistory.com/entry/CSS-📚-그리드Grid-💯-총정리 [Inpa Dev 👨‍💻:티스토리]
       ```
      ![그리드1](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbwihkI%2Fbtrg3q2IS3Z%2FTg6ZpDvnf1nZaIjgycU7z0%2Fimg.png)
       ```
@@ -86,9 +85,8 @@
       "main     .      .   "
       "main     .    aside "
       "footer footer footer";
-      출처: https://inpa.tistory.com/entry/CSS-📚-그리드Grid-💯-총정리 [Inpa Dev 👨‍💻:티스토리]
       ```
-      
+      ![그리드2](https://blog.kakaocdn.net/dn/yu6xp/btrg0pxkTZD/xKrnB1NB0ZAznvA2prBzFK/img.png)
   - ### `grid-auto-rows` `grid-auto-columns` `grid-auto-flow`
   - ### `row-gap` `column-gap` `gap`
   - ### `grid`
