@@ -128,7 +128,7 @@
   - ### `grid-row` `grid-column`
     - 각각 `grid-row-xxx` `grid-column-xxx` 단축 속성
   - ### `grid-area`
-    - 'grid-row` `grid-column` 단축 속성
+    - `grid-row` `grid-column` 단축 속성
   - ### `align-self`
     - 단일 그리드 아이템 수직 정렬
     - `normal, start, center, end, stretch`
