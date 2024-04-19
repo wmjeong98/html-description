@@ -14,9 +14,9 @@
 <link href="css/common.css" rel="stylesheet" type="text/css" 
    media="screen and (min-width:0px) and (max-width:480px)">
 ```  
-2. css 파일 내에 직접 `media` 설정
+2. css 파일 내에 직접 `media` 설정<br>
 `@media all and (min-width:480px) { ... }`
-3. 미디어 쿼리를 설정한 파일을 css 파일 내에서 `import` 해서 적용
+3. 미디어 쿼리를 설정한 파일을 css 파일 내에서 `import` 해서 적용<br>
 `@import "../media.css";`
 
 ## 미디어 쿼리 타입 
